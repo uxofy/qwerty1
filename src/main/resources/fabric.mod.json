@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "qwerty",
+  "version": "${version}",
+  "name": "Qwerty",
+  "description": "Auto-attack with mace when aiming at a mob",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.example.qwerty.QwertyClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
